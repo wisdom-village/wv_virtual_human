@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Voice Dictionary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Welcome\nFrom\nFullScreen</string>
+</resources>
