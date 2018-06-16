@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.virtualhuman.voicedictionary.Activity.Fragment.Dictionary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:background="@color/fragment_background_color"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_speech"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/header_layout">
+            <ImageView
+                android:id="@+id/micImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_microphone" />
+            <TextView
+            android:id="@+id/micHintText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/micText"
+            android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/answerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:overScrollMode="always"
+                android:text="Answer will show in here . . ."
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
