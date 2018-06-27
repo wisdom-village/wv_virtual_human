@@ -57,7 +57,12 @@
                 android:text="Answer will show in here . . ."
                 android:textSize="20sp" />
 
-
+            <ProgressBar
+                android:id="@+id/pb_loading_indicator"
+                android:layout_below="@+id/micImage"
+                android:layout_height="42dp"
+                android:layout_width="42dp"
+                android:visibility="gone" />
 
         </LinearLayout>
 
